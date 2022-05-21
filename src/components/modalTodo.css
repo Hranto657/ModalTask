@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.btn_input {
+  width:120px ;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(86,187,120);
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+}
+.btn_delete {
+  width:40px ;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(190, 32, 32);
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+  margin-right: 7px;
+}
+.list {
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;  
+}
+.listinp {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(86,187,120);
+  margin-left: 10px;
+
+}
+.listinpdel {
+  max-width: 300px;
+  text-decoration: line-through;
+  color: rgb(190, 32, 32);
+  font-size: 22px;
+}
+.listh1 {
+  max-width: 300px;
+  font-size: 22px;
+}
+.todolist {
+  margin-top: 40px;
+}
+.todoFooter {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.todoFooter>h1 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+.todoFooter>button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(190, 32, 32);
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+  margin-right: 7px;
+}
+
+
+
